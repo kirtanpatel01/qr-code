@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <title>QR code component</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        background-color: aliceblue;
+        font-family: "Outfit", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+      }
+
+      .card {
+        width: 13rem;
+        padding: 0.65rem;
+        border-radius: 0.75rem;
+        background-color: #fff;
+        box-shadow: 0px 10px 16px rgba(22, 48, 105, 0.098);
+      }
+
+      .card-img {
+        height: 13rem;
+        width: 13rem;
+        border-radius: 0.5rem;
+      }
+
+      .card-body {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0.875rem;
+        padding: 1rem 0.5rem;
+      }
+
+      .body-title {
+        font-weight: 700;
+      }
+
+      .body-desc {
+        color: rgb(144, 147, 184);
+        font-size: 12px;
+      }
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img
+          class="card-img"
+          src="/images/image-qr-code.png"
+          alt="qr-code" />
+        <div class="card-body">
+          <span class="body-title"
+            >Improve your front-end skills by building projects</span
+          >
+          <span class="body-desc"
+            >Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level</span
+          >
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">kjpatel</a>.
+      </div>
+    </div>
+  </body>
+</html>
